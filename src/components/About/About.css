@@ -5,10 +5,12 @@
 
 .about__name {
   color: var(--clr-primary);
+  text-align: center;
 }
 
 .about__role {
   margin-top: 1.2em;
+  text-align: justify;
 }
 
 .about__desc {
