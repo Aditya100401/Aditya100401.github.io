@@ -9,7 +9,7 @@ const about = {
   name: 'Aditya Sampath',
   description:
     'I am a graduate student at UNC Charlotte pursuing my Masters in Computer Science. I am passionate about AI and Softwares. I have worked on projects involving Machine Learning, Deep Learning, NLP and Software Development. I am currently looking for summer internship opportunities in Software Development and Data Science',
-  resume: 'https://rb.gy/ynn4u',
+  resume: 'https://rb.gy/c1mev',
   social: {
     linkedin: 'https://www.linkedin.com/in/aditya-sampath10/',
     github: 'https://github.com/Aditya100401',
@@ -31,7 +31,7 @@ const projects = [
     description:
       'Exploring the efficacy of symbolic regression for classification and regression tasks using SR libraries such as PySR and GPLearn. The project involves using symbolic regression to generate mathematical expressions that can be used to classify and predict the values of a dataset. The project also involves comparing the performance of symbolic regression with other machine learning algorithms such as Random Forest, SVM and Logistic Regression.',
     stack: ['Python', 'PySR', 'GPLearn', 'Scikit-learn', 'Pandas', 'Numpy', 'Matplotlib'],
-    sourceCode: 'https://github.com'
+    sourceCode: 'https://github.com/Aditya100401/Symbolic-Regression'
   },
   {
     name: 'Using Symbolic Regression for Classification of Emotions from EEG Signals',
