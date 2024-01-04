@@ -9,7 +9,7 @@ const about = {
   name: 'Aditya Sampath',
   description:
     'I am a graduate student at UNC Charlotte pursuing my Masters in Computer Science. I am passionate about AI and Softwares. I have worked on projects involving Machine Learning, Deep Learning, NLP and Software Development. I am currently looking for summer internship opportunities in Software Development and Data Science',
-  resume: 'https://tinyurl.com/3w8b6xw9',
+  resume: 'https://bit.ly/resume-adi-sampath',
   social: {
     linkedin: 'https://www.linkedin.com/in/aditya-sampath10/',
     github: 'https://github.com/Aditya100401',
