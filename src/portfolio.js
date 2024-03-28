@@ -9,7 +9,7 @@ const about = {
   name: 'Aditya Sampath',
   description:
     'I am a graduate student at UNC Charlotte pursuing my Masters in Computer Science. I am passionate about AI and Softwares. I have worked on projects involving Machine Learning, Deep Learning, NLP and Software Development. I am currently looking for summer internship opportunities in Software Development and Data Science',
-  resume: 'https://tinyurl.com/5cktfhat',
+  resume: 'https://tinyurl.com/y54y7exd',
   social: {
     linkedin: 'https://www.linkedin.com/in/aditya-sampath10/',
     github: 'https://github.com/Aditya100401',
@@ -27,18 +27,18 @@ const projects = [
     sourceCode: 'https://github.com/Aditya100401/Fake-News-Detection'
   },
   {
-    name: 'Assessing the Efficacy of Symbolic Regression for Classification and Regression Tasks',
-    description:
-      'Exploring the efficacy of symbolic regression for classification and regression tasks using SR libraries such as PySR and GPLearn. The project involves using symbolic regression to generate mathematical expressions that can be used to classify and predict the values of a dataset. The project also involves comparing the performance of symbolic regression with other machine learning algorithms such as Random Forest, SVM and Logistic Regression.',
-    stack: ['Python', 'PySR', 'GPLearn', 'Scikit-learn', 'Pandas', 'Numpy', 'Matplotlib'],
-    sourceCode: 'https://github.com/Aditya100401/Symbolic-Regression'
-  },
-  {
     name: 'Using Symbolic Regression for Classification of Emotions from EEG Signals',
     description:
       'Using symbolic Regression for classifying emotions from EEG signals. The project involves extracting data from various frequency bands from EEG signals which are passed as features to the SR model to generate equations which help in indentifying the dominant frquencies and the kind of emotions that are being experienced by the subject.',
     stack: ['Python', 'PySR', 'GPLearn', 'Scikit-learn', 'Pandas', 'Numpy', 'Matplotlib', 'DWT', 'Signal Processing'],
-    sourceCode: 'https://github.com'
+    sourceCode: 'https://github.com/Aditya100401/Symbolic-Regression'
+  },
+  {
+    name: '',
+    description:
+      'Exploring the efficacy of symbolic regression for classification and regression tasks using SR libraries such as PySR and GPLearn. The project involves using symbolic regression to generate mathematical expressions that can be used to classify and predict the values of a dataset. The project also involves comparing the performance of symbolic regression with other machine learning algorithms such as Random Forest, SVM and Logistic Regression.',
+    stack: ['Python', 'PySR', 'GPLearn', 'Scikit-learn', 'Pandas', 'Numpy', 'Matplotlib'],
+    sourceCode: 'https://github.com/Aditya100401/Symbolic-Regression'
   },
 ]
 
