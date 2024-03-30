@@ -15,38 +15,56 @@ const Skills = () => {
           <div className='skills__category'>
             <h3>Languages</h3>
             <ul className='skills__list'>
-              {skills.languages.map((skill) => (
+              {skills.languages.map((language) => (
                 <li key={uniqid()} className='skills__list-item btn btn--plain'>
-                  {skill}
+                  <img src={language.icon} alt={language.name} className="skill-icon" />
+                  {language.name}
                 </li>
               ))}
             </ul>
           </div>
         )}
 
-        {/* Tools */}
-        {skills.tools.length > 0 && (
+        {/* ML/Data */}
+        {skills.ML_Data.length > 0 && (
+          <div className='skills__category'>
+            <h3>ML/Data</h3>
+            <ul className='skills__list'>
+              {skills.ML_Data.map((skill) => (
+              <li key={uniqid()} className='skills__list-item btn btn--plain'>
+                <img src={skill.icon} alt={skill.name} className="skill-icon" />
+                {skill.name}
+              </li>
+              ))}
+            </ul>
+          </div>
+        )}
+        
+        {/* Web */}
+        {skills.Web.length > 0 && (
+          <div className='skills__category'>
+            <h3>Web</h3>
+            <ul className='skills__list'>
+              {skills.Web.map((skill) => (
+              <li key={uniqid()} className='skills__list-item btn btn--plain'>
+                <img src={skill.icon} alt={skill.name} className="skill-icon" />
+                {skill.name}
+              </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
+        {/* Other */}
+        {skills.Tools.length > 0 && (
           <div className='skills__category'>
             <h3>Tools</h3>
             <ul className='skills__list'>
-              {skills.tools.map((skill) => (
-                <li key={uniqid()} className='skills__list-item btn btn--plain'>
-                  {skill}
-                </li>
-              ))}
-            </ul>
-          </div>
-        )}
-
-        {/* concepts */}
-        {skills.concepts.length > 0 && (
-          <div className='skills__category'>
-            <h3>concepts</h3>
-            <ul className='skills__list'>
-              {skills.concepts.map((skill) => (
-                <li key={uniqid()} className='skills__list-item btn btn--plain'>
-                  {skill}
-                </li>
+              {skills.Tools.map((tool) => (
+              <li key={uniqid()} className='skills__list-item btn btn--plain'>
+                <img src={tool.icon} alt={tool.name} className="skill-icon" />
+                {tool.name}
+              </li>
               ))}
             </ul>
           </div>

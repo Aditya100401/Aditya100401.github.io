@@ -9,7 +9,7 @@ const about = {
   name: 'Aditya Sampath',
   description:
     'I am a graduate student at UNC Charlotte pursuing my Masters in Computer Science. I am passionate about AI and Softwares. I have worked on projects involving Machine Learning, Deep Learning, NLP and Software Development. I am currently looking for summer internship opportunities in Software Development and Data Science',
-  resume: 'https://tinyurl.com/y54y7exd',
+  resume: 'https://tinyurl.com/4vcdvvxv',
   social: {
     linkedin: 'https://www.linkedin.com/in/aditya-sampath10/',
     github: 'https://github.com/Aditya100401',
@@ -44,31 +44,31 @@ const projects = [
 
 const skills = {
   languages: [
-    'C/C++',
-    'Python',
-    'Javascript',
-    'HTML',
-    'CSS',
-    'MATLAB',
-    'MySQL',
+      { name: 'JavaScript', icon: `${process.env.PUBLIC_URL}/images/Languages/JavaScript.png`}, 
+      { name: 'Python', icon: `${process.env.PUBLIC_URL}/images/Languages/Python.png`},
+      { name: 'C', icon: `${process.env.PUBLIC_URL}/images/Languages/C.png`},
+      { name: 'C++', icon: `${process.env.PUBLIC_URL}/images/Languages/CPlusPlus.png`},
   ],
-  tools: [
-    'Git',
-    'VSCode',
-    'Linux',
-    'Tensorflow',
-    'PyTorch',
-    'FastAPI',
-    'Jupyter Notebook',
-    'D3.js',
+  ML_Data: [
+    {name: 'Tensorflow', icon: `${process.env.PUBLIC_URL}/images/ML_Data/TensorFlow.png`},
+    {name: 'PyTorch', icon: `${process.env.PUBLIC_URL}/images/ML_Data/PyTorch.png`},
+    {name: 'Pandas', icon: `${process.env.PUBLIC_URL}/images/ML_Data/Pandas.png`},
+    {name: 'D3.js', icon: `${process.env.PUBLIC_URL}/images/ML_Data/D3.js.png`},
+    {name: 'MySQL', icon: `${process.env.PUBLIC_URL}/images/ML_Data/MySQL.png`},
   ],
-  concepts: [
-    'Machine Learning',
-    'Deep Learning',
-    'Image Processing',
-    'Natural Language Processing',
-    'Data Visualization',
-    'Software Development',
+  Web: [
+    {name: 'React', icon: `${process.env.PUBLIC_URL}/images/Web/React.png`},
+    {name: 'Node.js', icon: `${process.env.PUBLIC_URL}/images/Web/Node.js.png`},
+    {name: 'HTML', icon: `${process.env.PUBLIC_URL}/images/Web/HTML5.png`},
+    {name: 'CSS', icon: `${process.env.PUBLIC_URL}/images/Web/CSS3.png`},
+  ],
+  Tools: [
+    {name: 'Git', icon: `${process.env.PUBLIC_URL}/images/Other/Git.png`},
+    {name: 'Docker', icon: `${process.env.PUBLIC_URL}/images/Other/Docker.png`},
+    {name: 'Jupyter', icon: `${process.env.PUBLIC_URL}/images/Other/Jupyter.png`},
+    {name: 'Linux', icon: `${process.env.PUBLIC_URL}/images/Other/Linux.png`},
+    {name: 'Anaconda', icon: `${process.env.PUBLIC_URL}/images/Other/Anaconda.png`},
+    {name: 'Fast API', icon: `${process.env.PUBLIC_URL}/images/Other/FastAPI.png`},
   ],
 };
 

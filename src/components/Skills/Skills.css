@@ -1,12 +1,24 @@
+.skills__category {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem; /* Increase the margin-bottom value to add more space */
+  text-align: center;
+  
+}
+
 .skills__list {
-  max-width: 450px;
-  width: 95%;
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 1rem;
 }
 
-.skills__list-item {
-  margin: 0.5em;
+.skill-icon {
+  margin-right: 0.5rem;
+  width: 24px;
+  height: 24px;
+}
+
+.skill-name {
+  margin-left: 0.5rem;
 }
